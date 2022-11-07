@@ -26,7 +26,7 @@ const Btn = styled.div`
     }
 `
 
-const Totop = () => {
+const ToTop = () => {
     const [scrollY, setScrollY] = useState(0);
     const totopHandler = () => {
         gsap.to(window, { duration: 0.5, scrollTo: 0 });
@@ -56,4 +56,4 @@ const Totop = () => {
     )
 }
 
-export default Totop
+export default ToTop

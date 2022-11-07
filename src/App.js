@@ -7,7 +7,7 @@ import Solution from './component/Solution';
 import Promotion from './component/Promotion';
 import News from './component/News';
 import Footer from './component/Footer';
-import Totop from './component/Totop';
+import ToTop from './component/ToTop';
 import Popup from './component/Popup';
 import Wrapper from './component/Wrapper';
 
@@ -24,7 +24,7 @@ const App = () => {
         <News />
       </main>
       <Footer />
-      <Totop />
+      <ToTop />
       <Popup />
     </Wrapper>
   );

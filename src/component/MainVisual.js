@@ -54,7 +54,7 @@ const MainVisual = () => {
             </ul>
             <div className="slideArrows">
                 <button onClick={() => mainSlide.current.slickPrev()}><i className="xi-arrow-left"></i></button>
-                <button onClick={() => mainSlide.current.slickNext()}> <i className="xi-arrow-right"></i></button>
+                <button onClick={() => mainSlide.current.slickNext()}><i className="xi-arrow-right"></i></button>
             </div>
         </section >
     )
